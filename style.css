@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #eee;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#videosList {
+    margin: 0;
+    padding: 0;
+}
+
+#videosList li {
+    padding: 2px 8px;
+    list-style: none;
+}
+
+#videosList li:first-child {
+    padding-top: 0
+}
+
+.gallery-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex
+}
+
+#player {
+    width: 70%;
+}
+
+#videosList {
+    width: 30%;
+}
